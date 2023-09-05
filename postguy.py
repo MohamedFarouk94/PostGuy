@@ -26,6 +26,8 @@ def send():
 	global response_box, error_output, status_output
 	global METHODS_FUNCTIONS
 
+	clear()
+
 	f = METHODS_FUNCTIONS[method.get()]
 	url = read(url_entry)
 	headers = read(headers_box)
